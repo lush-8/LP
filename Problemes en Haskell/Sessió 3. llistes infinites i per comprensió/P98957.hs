@@ -49,4 +49,4 @@ lookNsay = iterate next 1
 tartaglia :: [[Integer]]
 tartaglia = iterate nextRow [1]
     where
-        nextRow row = zipWith (+) (0: row) (row ++ [0])
+        nextRow row = zipWith (+) (0 : row) (row ++ [0])
